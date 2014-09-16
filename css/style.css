@@ -1,0 +1,317 @@
+body
+{
+  background: url('bck.png');
+  background-attachment:fixed;
+  background-color: #c3b68a;
+  min-height: 100%;
+   display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+
+.container-non-responsive {
+ 
+  /* Set width to your desired site width */
+  width: 1343px;
+}
+.logo
+{
+    margin-left: 25px;
+}
+.cnav
+{
+  height: 45px;
+  text-align: left;
+  background-color: #8c7468;
+-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.68);    
+}
+
+.cnav ul
+{
+  margin:0;
+  list-style: none;
+  height:45px;
+}
+
+.cnav ul li
+{
+  display:inline-table;
+}
+
+
+.cnav > ul > li > a
+{
+  margin:0;
+  height:40px;
+  line-height: 40px;
+  font-size: 97%;
+  display:inline-table;
+  padding: 0px 12px;
+  padding-top: 5px;
+  color:#ffffff;
+  
+}
+
+.cnav > ul > li > a:hover
+{
+  background-color: #70574b;
+}
+
+.enav
+{
+  height: 35px;
+  max-width: 100%;
+  text-align: left;
+  background-color: #ffffff;
+  opacity: 0.82;
+  filter:Alpha(opacity=82);
+
+}
+.enav ul
+{
+  margin:0;
+  list-style: none;
+  height:30px;
+}
+
+.enav ul li
+{
+  display:inline-table;
+}
+
+
+.enav > div> ul > li > a
+{
+  margin:0;
+  height:35px;
+  line-height: 35px;
+  font-size: 97%;
+  display:inline-table;
+  padding: 0px 3px;
+  padding-top: 0px;
+  color:#788f85;
+  
+}
+
+.enav > div> ul > a
+{
+  margin:0;
+  height:24px;
+  line-height: 24px;
+  font-size: 90%;
+  display:inline-table;
+  padding: 0px 7px;
+  padding-top: 0px;
+  color:#ffffff;
+  background-color:#788f85; 
+  border-radius: 3px;
+}
+
+.enav > ul> a
+{
+  margin:0;
+  height:24px;
+  line-height: 24px;
+  font-size: 90%;
+  display:inline-table;
+  padding: 0px 7px;
+  margin-top: 6px;
+  color:#ffffff;
+  background-color:#788f85; 
+  border-radius: 3px;
+}
+
+.first
+{
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.first-right
+{
+  margin-left: 40px;
+}
+
+.navcode
+{
+  margin-bottom: 3px;
+}
+
+/*.linedwrap
+{
+  border-top: 25px solid #92d050;
+  border-radius: 7px 7px 0 0;
+}*/
+
+/*.result
+{
+  border-top: 25px solid #ffbb1e;
+  border-radius: 7px 7px 0 0;
+}*/
+
+.codelines
+{
+  background: #ffffff;
+  opacity: 0.82;
+   filter:Alpha(opacity=82);
+}
+
+.linedwrap .codelines .lineno
+{
+  color:#788f85;
+}
+
+textarea
+{
+  background:#ffffff;
+  opacity: 0.82;
+   filter:Alpha(opacity=82);
+}
+
+.btitle
+{
+  padding-top: 8px;
+  color:#788f85;
+  font-weight:bold;
+}
+
+.run
+{
+  height:24px !important;
+}
+
+.second
+{
+   margin-left: 15px;
+   margin-top: 3px;
+   background-color: #ffffff;
+   opacity: 0.82;
+   filter:Alpha(opacity=82);
+   -webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.68); 
+}
+
+.enav > ul > a
+{
+  background-color: #8c7468;
+}
+.enav > ul > p
+{
+  height:24px;
+  line-height: 35px;
+  padding-left: 10px;
+  color: #6b594f;
+}
+
+.keywords
+{
+  margin:18px 0;
+  width:450px !important;
+
+}
+.keywords > div
+{
+  text-align: center;
+}
+
+.keywords > div > a
+{
+  padding:6px;
+  color:#ffffff;
+  border-radius: 3px;
+  font-size: 85%;
+}
+.a
+{
+  background-color: #596a63;
+}
+.b
+{
+  background-color: #a58645;
+}
+.c
+{
+  background-color:  #6b594f;
+}
+.d
+{
+  background-color: #7d3d35;
+}
+
+#home
+{
+  height:768px;
+  
+}
+#why
+{
+  height:768px;
+  
+}
+#contact
+{
+  height:768px;
+}
+
+
+.bottom
+{
+  margin-top: 3px;
+  background-color:#ffffff;
+  opacity: 0.82;
+   filter:Alpha(opacity=82);
+
+     -webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.68);
+box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.68); 
+}
+
+.tooltip-inner
+{
+  background-color:  #6b594f;
+}
+
+.customtheme1 { 
+  border: 5px solid #6b594f;
+}
+
+.customtheme2 { 
+  border: 5px solid #a58645;
+}
+
+.customtheme3 { 
+  border: 5px solid #596a63;
+}
+
+.customtheme4 { 
+  border: 5px solid #7d3d35;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  z-index: 100;
+}

@@ -1,0 +1,19 @@
+<html>
+
+<script>
+var a=new Array('{','[',']','}','<','>');
+var b=new Array('1','2','3','4',' < ',' > ');
+
+var code="{}[]<>";
+
+for(var i=0; i<6; i++){
+var replacer='\'+a[i];
+alert(replacer);
+//var re = new RegExp(replacer,"g");
+//code=code.replace(re,b[i]);
+}
+
+alert(code);
+</script>
+
+</html>

@@ -1,0 +1,134 @@
+<html>
+<head>
+	<title>চা Script - Examples</title>
+	<meta name="description" content="Sample codes of Cha Script">
+	<meta name="keywords" content="sample,codes,code,bengali,programming language,programming,bangla,cha,script,cha script" />
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="css/hstyle.css" type="text/css" rel="stylesheet" />
+    <script>
+	    $(window).load(function(){
+	      $("#header").sticky({ topSpacing: 0 });
+	    });
+
+    
+  	</script>
+
+</head>
+
+<body>
+        <div class="head" id="header">
+          <nav class="cnav" id="cnav">
+            <img class="logo" src="images/logo2.png" alt="some_text">
+            <ul class="pull-right">
+              <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a> </li>
+              <li> <a href="code.html"><span class="glyphicon glyphicon-align-left"></span> কোড করুন</a></li>
+              <li><a href="examples.html"><span class="glyphicon glyphicon-list-alt"></span> Examples</a> </li>
+              <li><a href="tutorial.html"><span class="glyphicon glyphicon-edit"></span> Tutorial</a> </li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="examples" style="margin:10px; text-align:left;">
+
+<h1> Hello World </h1> 
+<p>
+দেখাও("হ্যালো ওয়ার্ল্ড")
+</p>
+<br/>
+
+<h1> I/O (Scanf Printf) </h1> 
+<p>
+ক = নাও("আপনার নাম লিখুন") <br> 
+দেখাও( "আপনার নাম " + ক) <br>
+</p>
+<br/>
+
+<h1> Basic Arithmetic  </h1>
+<p>
+ক = ১০ <br>
+খ = ২<br>
+গ = ৩<br>
+ঘ = ৪<br>
+চ = ক / খ - গ * ঘ<br>
+দেখাও( চ)<br>
+</p>
+<br/>
+<h1> If Condition </h1>
+<p>
+ক  = ১৫<br>
+যদি( ক < ৫  ) <br>
+{ <br>
+ দেখাও( "ক এর মান ৫ থেকে কম ।ন")  <br>
+} <br> নাহলে
+{ <br>
+ দেখাও("ক এর মান ৫ থেকে বেশী")<br>
+}
+
+</p>
+
+<br/>
+
+<h1>Loop (।ন = New Line) </h1>
+<p>
+ক = ১ <br>
+চলবে <br>
+{<br>
+ যদি(ক > ১০) <br>
+ { <br>
+ থামো <br>
+ } <br>
+ দেখাও(ক + "।ন")<br>
+ ক = ক + ১<br>
+}
+</p>
+<br/>
+
+<h1>String Search</h1>
+<p>
+ক= "আম আপেল কাঁঠাল"<br>
+গ = কঃআছে("আপেল") <br>
+যদি(গ != -১) <br>
+{<br>
+ দেখাও("আপেল আছে")<br>
+}
+</p>
+
+<br/>
+
+<h1>Maximum Number in Array</h1>
+<p>
+ক = সেট(১,৩,৭,২)<br>
+ব = ক[০]<br>
+ত = ১<br>
+চলবে<br>
+{<br>
+যদি(ব <= ক[ত])<br>
+{<br>
+ ব = ক[ত]<br>
+}<br>
+ত = ত + ১<br>
+যদি(ত==কঃআয়তন)<br>
+{<br>
+থামো<br>
+}<br>
+}<br>
+দেখাও(ব)
+</p>
+        </div>
+</body>
+ <script language="javascript">
+        function autoResizeDiv()
+        {
+           
+              document.getElementById('cnav').style.width = (window.innerWidth-10) +'px' ;
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+</html>

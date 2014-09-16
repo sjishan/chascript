@@ -1,0 +1,164 @@
+<html>
+<head>
+	<title>চা Script - Home</title>
+	<meta name="description" content="Cha Script - চা Script is a programming language in Bengali designed for learning programming.">
+	<meta name="keywords" content="bengali,programming language,programming,bangla,cha,script,cha script" />
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="css/hstyle.css" type="text/css" rel="stylesheet" />
+  	<script>
+	    $(window).load(function(){
+	      $("#header").sticky({ topSpacing: 0 });
+	    });
+
+    
+  	</script>
+	<script>
+   
+		<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+</head>
+
+<body>
+
+
+	 <div class="container-non-responsive">
+	   <div class="head"  id="header">
+          <div class="cnav">
+            <img class="logo" src="images/logo2.png" alt="চা Script">
+            <ul class="pull-right">
+              <li> <a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a> </li>
+              <li> <a href="code.html"><span class="glyphicon glyphicon-align-left"></span> কোড করুন</a></li>
+              <li><a href="#why"><span class="glyphicon glyphicon-comment"></span> Why চা Script?</a> </li>
+              <li> <a href="examples.html"><span class="glyphicon glyphicon-list-alt"></span> Examples</a> </li>
+              <li> <a href="tutorial.html"><span class="glyphicon glyphicon-edit"></span> Tutorial</a> </li>
+              <li> <a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div id="home"> 
+            <!-- facebook like share plugin -->
+
+            <div class="fb-like" data-href="https://www.facebook.com/chascript" data-width="100px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="position: fixed; top: 50px; right: 80px;"></div>
+
+        	<div class="inner">
+        		<div class="block">
+                    <div class="row">
+        	     	<div class="col-xs-6">
+        	     		<div class="row intro">
+        	     		<img src="images/hometext.png" alt="Home">
+        	     		</div>
+        	     		<div class="row hbtn">
+        	     		  <div class="col-xs-6"><a  href="http://www.omicronlab.com/avro-keyboard.html" target="_blank" class="avro">Download অভ্র</a> </div>
+                          <div class="col-xs-6"><a  href="code.html" class="code">কোড করুন</a> </div>
+        	     		</div>
+
+        	     	</div>
+        	     	<div class="col-xs-6 img">
+        	     		<img src="images/home.png" alt="Home">
+        	     	</div>
+                    </div>
+                    <div class="row" style="margin-top:16px;">
+                        <h5>*চা Script is totally depended on the grammar of <a  href="http://www.ecmascript.org/" target="_blank">ECMA Script</a> which is parsed using <a  href="http://zaach.github.io/jison/" target="_blank">Jison</a></h5>
+                    </div>
+        		</div>
+        	</div>
+        </div>
+        <div id="why">
+        	<div class="inner2">
+        		<div class="block2">
+        	     	<div class="col-xs-4 inblock2">
+        	     		<div class="row">
+        	     		<span style="font-size:5em; color:#60736b;" class="glyphicon glyphicon-pencil"></span>
+        	     		</div>
+        	     		<div class="row">
+	        	     		<h2>Easy to Learn</h2>
+	        	     		<p style="margin:0 20px; text-align:justify;">চা Script was designed as a learning platform for computer programming. It can be a stepping stone for people to learn how to code but thinks language can be a barrier for them to learn something new and that is why we developed চা Script, a বাংলা scripting language with well documentation and tutorials.</p>
+        	     		</div>
+        	     	</div>
+        	     	<div class="col-xs-4 inblock2">
+        	     		<div class="row">
+        	     		<span style="font-size:5em; color:#7d3d35;" class="glyphicon glyphicon-align-left"></span>
+        	     		</div>
+        	     		<div class="row">
+	        	     		<h2>Easy to Code</h2>
+	        	     		<p style="margin:0 20px; text-align:justify;">চা Script contains primitive and easy syntax definitions. No need for type declaration. No need for semicolons. An integrated coding enviroment is provided with keyword buttons for the ease of writing codes.</p>
+        	     		</div>
+        	     	</div>
+        	     	<div class="col-xs-4 inblock2">
+        	     		<div class="row">
+        	     		<span style="font-size:5em; color:#ae302d;" class="glyphicon glyphicon-ban-circle"></span>
+        	     		</div>
+        	     		<div class="row">
+	        	     		<h2>No Installation Required</h2>
+	        	     		<p style="margin:0 20px; text-align:justify;">চা Script do not need any kind of installation process. It is a fully web based scripting language which can also be used in offline mode if the files are downloaded in the local server/pc.However, we encourage users to download Avro Keyboard to write বাংলা.</p>
+        	     		</div>
+        	     	</div>
+        	</div>
+        </div>
+        <div id="contact">
+            <div class="inner3">
+                <div class="block3">
+                    <div class="col-xs-6">
+                    <img src="images/contact.png" alt="Contact Us">
+                    </div>
+                    <div class="col-xs-6" style="margin-top:50px;">
+                        <div class="row">
+                        <div class="row"><h3>Md. Nuruddin Monsur</h3><p>Email: get2adnan@windowslive.com</p></div>
+                        <div class="row"><h3>Arman Kamal</h3><p>Email: arman1790@gmail.com</p></div>
+                        <div class="row"><h3>Syed Tanveer Jishan</h3><p>Email: tanveer_syed@live.com</p></div>
+                        <div class="row"><h3>Fahad Billah</h3><p>Email: billah22@gmail.com</p></div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	 </div>
+
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=485258221589254&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+	   <!-- Start: TraceMyIP.org Code //-->
+
+<script type="text/javascript" src="http://s3.tracemyip.org/tracker/lgUrl.php?stlVar2=1307&amp;rgtype=4684NR-IPIB&amp;pidnVar2=27553&amp;prtVar2=2&amp;scvVar2=12"></script><noscript><div class="row" style="margin: 10px 0;" ><a title="what is my ip" href="http://www.tracemyip.org/" target="_blank"><img src="http://s3.tracemyip.org/tracker/1307/4684NR-IPIB/27553/2/12/ans/" alt="what is my ip" border="0"></a></div></noscript>
+<!-- End: TraceMyIP.org Code //-->
+</body>
+
+</html>
