@@ -2,4 +2,4 @@ ChaScript was designed as a learning platform for computer programming. It can b
 
 It is build with ECMA Script grammar and is parsed using JISON JavaScript parser.
 
-Visit: http://www.chascript.com/
+Visit: http://sjishan.github.io/chascript/
